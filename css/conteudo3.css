@@ -1,0 +1,28 @@
+.conteudo3{
+    background-color: rgba(74, 1, 129, 1);
+    background-image: linear-gradient(348deg, rgb(31, 20, 43) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.container3{
+    display: flex;
+    font-family: 'Montserrat', sans-serif !important;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.texto-informativo{
+    padding-top: 65px;
+}
+
+@media screen and (max-width: 1400px){
+    .container3{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 90px;
+    }
+
+    .texto-informativo{
+        width: 90% !important;
+        padding-top: 20px;
+    }
+}

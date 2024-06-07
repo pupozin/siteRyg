@@ -1,0 +1,63 @@
+.container2{
+    display: flex;
+    font-family: 'Montserrat', sans-serif !important;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.conteudo2 {
+    position: relative;
+    width: 100%;
+   
+    background: #030003;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+}
+
+.player{
+    width: 90%;
+}
+
+.spotify-players{
+    width: 80%;
+}
+
+.texto-spotify{
+    padding-top: 45px;
+}
+
+@media screen and (max-width: 1400px){
+    .container2{
+        display: block;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .texto-spotify{
+        width: 90% !important;
+        padding-top: 0;
+    }
+
+    .spotify-players{
+        width: 80%;
+    }
+
+    .player{
+        width: 100%;
+    }
+}
